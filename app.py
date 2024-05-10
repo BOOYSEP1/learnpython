@@ -35,7 +35,7 @@ def Learn_Python():
                           company_name='Learn Python')
 
 
-@app.route("/jobs")
+@app.route("/api/jobs")
 def list_jobs():
     return jsonify(JOBS)
 
